@@ -1,4 +1,15 @@
 {
+    "headers": [
+        {
+            "source": "/_next/static/(.*).js",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/javascript"
+                }
+            ]
+        }
+    ],
     "rewrites": [
         {
             "source": "/(.*)",
